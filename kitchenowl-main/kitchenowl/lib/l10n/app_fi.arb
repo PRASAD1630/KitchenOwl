@@ -1,0 +1,540 @@
+{
+  "@addLanguageConfirm": {
+    "placeholders": {
+      "lang": {
+        "example": "English",
+        "type": "String"
+      }
+    }
+  },
+  "@addNumberIngredients": {
+    "placeholders": {
+      "number": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@addRecipeToPlanner": {
+    "placeholders": {
+      "number": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@addedBy": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@appTitle": {
+    "description": "The title of the app"
+  },
+  "@categoryDeleteConfirmation": {
+    "placeholders": {
+      "category": {
+        "example": "Frozen",
+        "type": "String"
+      }
+    }
+  },
+  "@categoryExpenseDeleteConfirmation": {
+    "placeholders": {
+      "category": {
+        "example": "Frozen",
+        "type": "String"
+      }
+    }
+  },
+  "@expenseOverviewTotalTitle": {
+    "placeholders": {
+      "month": {
+        "example": "January",
+        "type": "String"
+      }
+    }
+  },
+  "@fieldCannotBeEmpty": {
+    "placeholders": {
+      "field": {
+        "example": "Username",
+        "type": "String"
+      }
+    }
+  },
+  "@hi": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@householdDeleteConfirmation": {
+    "placeholders": {
+      "household": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@householdLeaveConfirmation": {
+    "placeholders": {
+      "household": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@itemDeleteConfirmation": {
+    "placeholders": {
+      "item": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@itemsMergeConfirmation": {
+    "placeholders": {
+      "item": {
+        "example": "Cake",
+        "type": "String"
+      },
+      "other": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@link": {
+    "description": "As in link social account (e.g. Google)"
+  },
+  "@linkNoun": {
+    "description": "The noun, as in share using a link (URL)"
+  },
+  "@lltDeleteConfirmation": {
+    "placeholders": {
+      "token": {
+        "example": "HomeAssistant",
+        "type": "String"
+      }
+    }
+  },
+  "@logoutName": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@onboardingSettingsTitle": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@owesAB": {
+    "placeholders": {
+      "nameA": {
+        "example": "Tom",
+        "type": "String"
+      },
+      "nameB": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@privacyPolicyAgree": {
+    "placeholders": {
+      "privacyPolicy": {
+        "example": "Privacy Policy",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeAddToHousehold": {
+    "placeholders": {
+      "householdName": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeDeleteConfirmation": {
+    "placeholders": {
+      "recipe": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeGoToInHousehold": {
+    "placeholders": {
+      "householdName": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@shoppingListContainsEntries": {
+    "placeholders": {
+      "entriesCount": {
+        "type": "num"
+      }
+    }
+  },
+  "@shoppingListDeleteConfirmation": {
+    "placeholders": {
+      "shoppingList": {
+        "example": "Supermarket",
+        "type": "String"
+      }
+    }
+  },
+  "@signInWith": {
+    "placeholders": {
+      "provider": {
+        "example": "Authentik",
+        "type": "String"
+      }
+    }
+  },
+  "@tagDeleteConfirmation": {
+    "placeholders": {
+      "tag": {
+        "example": "Lunch",
+        "type": "String"
+      }
+    }
+  },
+  "@tutorialRecipeMore": {
+    "placeholders": {
+      "url": {
+        "example": "https://...",
+        "type": "String"
+      }
+    }
+  },
+  "@unlink": {
+    "description": "As in remove link to social account (e.g. Google)"
+  },
+  "@userDeleteConfirmation": {
+    "placeholders": {
+      "user": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "about": "Tietoa",
+  "accountCreate": "Luo käyttäjätunnus",
+  "accountCreateHint": "Ota huomioon, että käyttäjätunnuksesi ja nimesi ovat julkisia.",
+  "accountCreateTitle": "Luo KitchenOwl-tunnuksesi",
+  "accountDelete": "Poista tunnus",
+  "accountDeleteConfirmation": "Haluatko varmasti poistaa tunnuksesi?",
+  "accountLinkedWithOtherUser": "Tili on jo yhdistetty toiseen käyttäjään",
+  "accountsLinked": "Yhdistetyt tilit",
+  "add": "Lisää",
+  "addCategory": "Lisää kategoria",
+  "addDescriptionFromSource": "Lisää kuvaus lähteestä",
+  "addItemTitle": "Lisää kohteita",
+  "addLanguage": "Lisää kieli",
+  "addLanguageConfirm": "Oletko varma, että haluat asettaa kieleksi '{lang}'? Tätä ei voi perua, ja se lisää kohteita ja kategorioita kotitalouteesi.",
+  "addNumberIngredients": "Lisää {number} ainesosaa",
+  "addRecipeToPlanner": "Lisää ateriasuunnitelmaan ({number})",
+  "addRecipeToPlannerShort": "Lisää ateriasuunnitelmaan",
+  "addShoppingList": "Lisää ostoslista",
+  "addTag": "Lisää avainsana",
+  "addedBy": "{name} lisäsi",
+  "address": "Osoite",
+  "admin": "Ylläpitäjä",
+  "analysingWebsite": "Analysoi verkkosivustoa..",
+  "appDescription": "KitchenOwl auttaa sinua järjestämään päivittäistavaraelämäsi.",
+  "appTitle": "KitchenOwl",
+  "automaticIngredientDetection": "Tunnista ainesosat automaattisesti",
+  "back": "Takaisin",
+  "balances": "Saldot",
+  "budget": "Budjetti",
+  "budgetSet": "Aseta budjetti",
+  "camera": "Kamera",
+  "cancel": "Peruuta",
+  "cards": "Kortit",
+  "categories": "Kategoriat",
+  "categoriesMerge": "Yhdistä kategoriat",
+  "category": "Kategoria",
+  "categoryDelete": "Poista kategoria",
+  "categoryDeleteConfirmation": "Haluatko varmasti poistaa kategorian {category}? Kategoria poistetaan kaikilta kohteilta.",
+  "categoryEdit": "Muokkaa kategoriaa",
+  "categoryExpenseDeleteConfirmation": "Haluatko varmasti poistaa kategorian {category}? Kategoria poistetaan kaikista kuluista.",
+  "changeIcon": "Vaihda kuvake",
+  "clear": "Tyhjennä",
+  "colorSelect": "Valitse väri",
+  "compact": "Tiivis",
+  "confirm": "Vahvista",
+  "cookingTime": "Valmistusaika",
+  "copied": "Kopioitu",
+  "daily": "Päivittäin",
+  "dangerZone": "Vaaravyöhyke",
+  "darkmode": "Tumma tila",
+  "date": "Päivämäärä",
+  "defaultKey": "Oletusavain",
+  "defaultWord": "Oletus",
+  "delete": "Poista",
+  "description": "Kuvaus",
+  "discover": "Löydä",
+  "done": "Valmis",
+  "dynamicAccentColor": "Dynaaminen korostusväri",
+  "email": "Sähköposti",
+  "emailInvalid": "Virheellinen sähköposti",
+  "emailNotVerified": "Ei vahvistettu",
+  "emailResendVerification": "Lähetä vahvistusviesti uudelleen sähköpostiin",
+  "emailSuccessfullyVerified": "Sähköposti vahvistettu onnistuneesti!",
+  "emailUpdate": "Päivitä sähköposti",
+  "emailUsed": "Sähköposti on jo liitettynä tunnukseen",
+  "error": "Tapahtui virhe",
+  "excludeFromStatistics": "Jätä huomioimatta tilastoissa",
+  "expense": "Kulu",
+  "expenseAdd": "Lisää kulu",
+  "expenseAmount": "Määrä",
+  "expenseCategories": "Kululuokat",
+  "expenseEdit": "Muokkaa kulua",
+  "expenseEmpty": "Ei kuluja, aloita luomalla sellainen!",
+  "expenseFactor": "Kerroin",
+  "expenseOverviewComparedToPreviousMonth": "Verrattuna aikaisempiin kuukausiin",
+  "expenseOverviewExpenses": "Kustannukset",
+  "expenseOverviewTotalTitle": "Kokonaiskulut {month}:",
+  "expensePaidBy": "Maksaja",
+  "expensePaidFor": "Maksettu",
+  "expenseReceivedBy": "Vastaanottanut",
+  "expenseReceivedFor": "Saatu",
+  "export": "Vie",
+  "features": "Ominaisuudet",
+  "fieldCannotBeEmpty": "{field} ei voi olla tyhjä.",
+  "forceOfflineMode": "Pakota offline-tila",
+  "gallery": "Galleria",
+  "general": "Yleinen",
+  "go": "Mene",
+  "grid": "Ruudukko",
+  "helpTranslate": "Auta kääntämisessä",
+  "hi": "Hei {name}!",
+  "hidePastPlans": "Piilota edelliset suunnitelmat",
+  "household": "Kotitalous",
+  "householdDelete": "Poista kotitalous",
+  "householdDeleteConfirmation": "Haluatko varmasti poistaa kotitalouden {household}? Samalla poistetaan kaikki reseptit, kulut ja tuotteet.",
+  "householdEmpty": "Aloita lisäämällä ensimmäinen kotitalous!",
+  "householdLeave": "Poistu kotitaloudesta",
+  "householdLeaveConfirmation": "Haluatko varmasti poistua kotitaloudesta {household}?",
+  "householdNew": "Uusi kotitalous",
+  "householdSwitch": "Vaihda kotitaloutta",
+  "households": "Kotitaloudet",
+  "icon": "Kuvake",
+  "imageSelect": "Valitse kuva",
+  "import": "Tuo",
+  "importStartedHint": "Tuonti aloitettu, tässä voi kestää hetken.",
+  "income": "Tulot",
+  "ingredients": "Ainesosat",
+  "ingredientsOptional": "Valinnaiset ainesosat",
+  "itemDelete": "Poista kohde",
+  "itemDeleteConfirmation": "Haluatko varmasti poistaa kohteen {item}? Tämä poistaa sen myös kaikista resepteistä.",
+  "itemRemoveInteraction": "Kohteen poiston toiminto",
+  "itemSize": "Kohteen koko",
+  "items": "Kohteet",
+  "itemsAdd": "Lisää kohteita",
+  "itemsMerge": "Yhdistä kohteet",
+  "itemsMergeConfirmation": "Oletko varma, että haluat yhdistää {item} ja {other}? Toimintoa ei voi perua.",
+  "itemsOptional": "Valinnaiset kohteet",
+  "itemsRecent": "Viimeisimmät kohteet",
+  "language": "Kieli",
+  "languageSelect": "Valitse kieli",
+  "larger": "Suurempi",
+  "lastUsed": "Viimeksi käytetty",
+  "link": "Linkki",
+  "linkNoun": "Linkki",
+  "linkRecipeDescription": "Kaikki joilla on linkki, voivat nähdä reseptin.",
+  "list": "Lista",
+  "lltCreate": "Luo pitkäikäinen merkki",
+  "lltDelete": "Poista pitkäaikainen tunnus",
+  "lltDeleteConfirmation": "Haluatko varmasti poistaa pitkäikäisen tunnuksen '{token}'? Tätä ei voi perua.",
+  "lltNotShownAgain": "Tallenna tunnus, et näe sitä uudelleen",
+  "lltWarningContent": "Oletko varma, että haluat luoda pitkäaikaisen tunnuksen? Tämä voi olla mahdollinen tietoturvariski. Tunnus ei eräänny ja antaa tilille täyden käyttöoikeuden.",
+  "lltWarningTitle": "Tiedätkö varmasti mitä olet tekemssä?",
+  "llts": "Pitkäaikaiset tunnukset",
+  "login": "Kirjaudu sisään",
+  "loginTo": "Kirjaudu kohteeseen",
+  "loginToAddToShoppingList": "Kirjaudu sisään lisätäksesi reseptin ostoslistalle",
+  "logout": "Kirjaudu ulos",
+  "logoutName": "Kirjaa ulos {name}",
+  "longPressToReorder": "Paina pitkään muokataksesi järjestystä",
+  "longerThanExpected": "Tämä kestää odotettua kauemmin",
+  "markAsPaid": "Merkitse maksetuksi",
+  "mealPlanner": "Ateriasuunnittelu",
+  "member": "Jäsen",
+  "memberAdd": "Lisää jäsen",
+  "memberRemove": "Poista jäsen",
+  "members": "Jäsenet",
+  "merge": "Yhdistä",
+  "minutesAbbrev": "min",
+  "moneyTransfer": "Rahansiirto",
+  "monthly": "Kuukausittain",
+  "more": "Lisää",
+  "name": "Nimi",
+  "next": "Seuraava",
+  "noTags": "Ei avainsanoja",
+  "none": "Ei mitään",
+  "now": "Nyt",
+  "offlineMessage": "Olet offline",
+  "okay": "Hyvä on",
+  "onboardingLoading": "Tuodaan kieltä, tämä kestää hetken. Olethan kärsivällinen :)",
+  "onboardingSettingsTitle": "Hei {name}, asetetaampa palvelinasetukset!",
+  "onboardingTitle": "Luodaan uusi käyttäjä",
+  "optional": "Valinnainen",
+  "or": "tai",
+  "ordering": "Järjestys",
+  "other": "Muu",
+  "overview": "Yleiskatsaus",
+  "owesAB": "{nameA} on velkaa {nameB}",
+  "pageNotFound": "Sivua ei löytynyt",
+  "parent": "Vanhempi",
+  "parentRights": "Voi muokata kotitalouden asetuksia",
+  "password": "Salasana",
+  "passwordFieldTooShort": "Salasana on liian lyhyt",
+  "passwordForgot": "Unohtuiko salasana?",
+  "passwordRepeat": "Toista salasana",
+  "passwordRepeatNoMatch": "Salasanat eivät täsmää",
+  "passwordReset": "Nollaa salasana",
+  "passwordSave": "Päivitä salasana",
+  "personal": "Henkilökohtainen",
+  "planner": "Suunnittelija",
+  "plannerEmpty": "Aterioita ei suunniteltuna, aloita valitsemalla yksi resepteistäsi!",
+  "plannerTitle": "Suunnitellut ateriasi",
+  "preparationTime": "Esivalmisteluiden kesto",
+  "privacyPolicy": "Tietosuojakäytäntö",
+  "privacyPolicyAgree": "Luomalla tilin hyväksyt {privacyPolicy} ja {terms}",
+  "private": "Yksityinen",
+  "privateRecipeDescription": "Vain kotitalouden jäsenet voivat nähdä reseptin.",
+  "profile": "Profiili",
+  "public": "Julkinen",
+  "publicRecipeDescription": "Resepti on julkinen, jota voidaan suositella muille käyttäjille.",
+  "reason": "Syy",
+  "recentItemsCategorize": "Luokittele viimeisimmät kohteet",
+  "recipeAdd": "Lisää resepti",
+  "recipeAddToHousehold": "Lisää kotitalouteen {householdName}",
+  "recipeAddUrl": "Lisää resepti URL-osoitteesta",
+  "recipeDelete": "Poista resepti",
+  "recipeDeleteConfirmation": "Haluatko varmasti poistaa reseptin {recipe}?",
+  "recipeEdit": "Muokkaa reseptiä",
+  "recipeEmpty": "Ei reseptejä, aloita lisäämällä ensimmäinen!",
+  "recipeEmptySearch": "Reseptejä ei löytynyt :(",
+  "recipeGoToInHousehold": "Lisätty jo, mene resepteihin {householdName} kotitaloudessa",
+  "recipeImageSelect": "Valitse reseptin kuva",
+  "recipeNew": "Uusi resepti",
+  "recipeSource": "Reseptin lähde",
+  "recipes": "Reseptit",
+  "recipesCurated": "Valikoidut reseptit",
+  "recipesDiscover": "Löydä reseptejä",
+  "recipesNewestCommunity": "Yhteisön uusimmat reseptit",
+  "recipesOverwrite": "Korvaa reseptit",
+  "recipesOverwriteDescription": "Toiminto korvaa samannimiset reseptit",
+  "recipesPopular": "Suositut reseptit",
+  "recipesRecent": "Viimeisimmät",
+  "recipesSuggested": "Ehdotetut",
+  "redo": "Tee uudelleen",
+  "refresh": "Päivitä",
+  "rememberLastShoppingList": "Muista viimeksi käytetty ostoslista",
+  "remove": "Poista",
+  "rename": "Nimeä uudelleen",
+  "reportIssue": "Raportoi ongelmasta",
+  "reportRecipe": "Raportoi resepti",
+  "reportUser": "Raportoi käyttäjä",
+  "reset": "Nollaa",
+  "save": "Tallenna",
+  "search": "Etsi",
+  "searchHint": "Etsitkö jotain?",
+  "send": "Lähetä",
+  "server": "Palvelin",
+  "serverChange": "Vaihda palvelinta",
+  "sessions": "Istunnot",
+  "set": "Aseta",
+  "settings": "Asetukset",
+  "setupTitle": "Hei siellä! Valmiina ostoksille?",
+  "share": "Jaa",
+  "shoppingList": "Ostoslista",
+  "shoppingListContainsEntries": "{entriesCount, plural, =0{Ostoslistalle ei ole yhtään tuotetta.} =1{Ostoslistalla on yksi tuote.} other{Ostoslista sisältää {entriesCount} tuotetta.}}",
+  "shoppingListDelete": "Poista ostoslista",
+  "shoppingListDeleteConfirmation": "Haluatko varmasti poistaa {shoppingList}?",
+  "shoppingListEdit": "Muokkaa ostoslistaa",
+  "shoppingListEmpty": "Ostoslista on tyhjä. Lisää kohteita käyttämällä hakupalkin etsi-toimintoa.",
+  "shoppingListKeepAwake": "Pidä näyttö päällä ostoksia tehdessä",
+  "shoppingListStyle": "Ostoslistan tyyli",
+  "shoppingLists": "Ostoslistat",
+  "showPastPlans": "Näytä kaikki suunnitelmat",
+  "signInWith": "Kirjaudu {provider} avulla",
+  "signup": "Rekisteröidy",
+  "skip": "Ohita",
+  "smaller": "Pienempi",
+  "sortingAlgorithmic": "Algoritmi",
+  "sortingAlphabetical": "Aakkosjärjestys",
+  "start": "Aloita",
+  "supportDevelopment": "Tue sovelluskehitystä",
+  "swipeToDelete": "Pyyhkäise poistaaksesi",
+  "swipeToDeleteAndLongPressToReorder": "Pyyhkäise poistaaksesi ja paina pitkään järjestelläksesi uudelleen",
+  "swipeToRemove": "Pyyhkäise poistaaksesi",
+  "tagDelete": "Poista avainsana",
+  "tagDeleteConfirmation": "Haluatko varmasti poistaa avainsanan {tag}? Avainsana poistetaan myös kaikista resepteistä.",
+  "tagEdit": "Muokkaa avainsanaa",
+  "tags": "Avainsanat",
+  "tagsPopular": "Suositut tunnisteet",
+  "tap": "Napauta",
+  "terms": "Ehdot ja edellytykset",
+  "themeDark": "Tumma",
+  "themeLight": "Vaalea",
+  "themeMode": "Teema",
+  "themeSystem": "Järjestelmä",
+  "today": "Tänään",
+  "tomorrow": "Huomenna",
+  "total": "Yhteensä",
+  "totalTime": "Kokonaisaika",
+  "tutorialItemDescription1": "Voit tarvittaessa lisätä halutun määrän hakukentän alkuun. Tämä lisätään tuotteen kuvauskenttään.",
+  "tutorialItemDescription2": "Mikäli määrä ei riitä, käytä pilkkua erottaaksesi tuotteiden nimet ja kuvauksen.",
+  "tutorialRecipeDescription": "Voit käyttää resepteissä Markdown merkintäkieltä. Perusominaisuuksiin kuuluu esimerkiksi otsikot, jotka määritellään ristikkomerkillä, numeroidut listat reseptien vaihdeiden kuvaamiseen ja viittaukset raaka-aineisiin käyttämällä ät-merkkiä tuotteiden nimen edessä.",
+  "tutorialRecipeMore": "Lisätietoja osoitteesta [documentation]({url}).",
+  "uncategorized": "Luokittelematon",
+  "underConstruction": "Työn alla",
+  "undo": "Kumoa",
+  "unlink": "Poista linkki",
+  "unreachableMessage": "Hmmmm… palvelimeen ei saatu yhteyttä",
+  "unsavedChangesBody": "Oletko varma, että haluat palata?",
+  "unsavedChangesTitle": "Sinulla on tallentamattomia muutoksia",
+  "unsupportedBackendMessage": "Palvelimen versiota ei tueta, päivitä palvelimen ohjelmisto",
+  "unsupportedFrontendMessage": "Sovellusversiota ei tueta, päivitä sovellus",
+  "unsupportedScrapeMessage": "Tämä verkkosivusto ei ole tuettu",
+  "usedIn": "Käytetty",
+  "user": "Käyttäjä",
+  "userAdd": "Lisää käyttäjä",
+  "userDelete": "Poista käyttäjä",
+  "userDeleteConfirmation": "Haluatko varmasti poistaa käyttäjän {user}?",
+  "userNotSignedIn": "Sinun pitää olla kirjautuneena sisään voidaksesi yhdistää tilin",
+  "userSearchHint": "Syötä nimi",
+  "username": "Käyttäjänimi",
+  "usernameInvalid": "Käyttäjänimi ei voi sisältää merkkiä '@'",
+  "usernameUnavailable": "Käyttäjänimi ei ole käytettävissä",
+  "users": "Käyttäjät",
+  "website": "Verkkosivusto",
+  "weekly": "Viikottain",
+  "welcomeBack": "Tervetuloa takaisin",
+  "writeMarkdownHere": "Voit käyttää markdownia täällä!",
+  "wrongUsernameOrPassword": "Väärä käyttäjätunnus tai salasana",
+  "yearly": "Vuosittain",
+  "yes": "Kyllä",
+  "yesterday": "Eilen",
+  "yields": "Annosta",
+  "you": "sinä"
+}

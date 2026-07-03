@@ -1,0 +1,19 @@
+{
+  "categories": {
+    "bread": "🍞 বেকারি সামগ্রী",
+    "canned": "🥫 সংরক্ষিত খাদ্য",
+    "dairy": "🥛 দুগ্ধজাতীয়",
+    "drinks": "🍹 পানিয়",
+    "fruits_vegetables": "🥬 ফল ও শাকসবজি",
+    "grain": "🥟 পাস্তা ও নুডলস",
+    "hygiene": "🧼 পরিষ্কার-পরিচ্ছন্নতা",
+    "refrigerated": "💧 হিমায়িত",
+    "snacks": "🥜 জলখাবার"
+  },
+  "items": {
+    "apple": "আপেল",
+    "apple_pulp": "আপেল বাটা",
+    "applesauce": "আপেল সস",
+    "apricots": "খুবানি( এপ্রিকোট)"
+  }
+}

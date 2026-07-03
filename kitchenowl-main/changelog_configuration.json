@@ -1,0 +1,33 @@
+{
+  "categories": [
+    {
+      "title": "## ✨ Features",
+      "labels": ["enhancement"]
+    },
+    {
+      "title": "## 🐛 Fixes",
+      "labels": ["fix", "bug"]
+    },
+    {
+      "title": "## 🧪 Tests",
+      "labels": ["test"]
+    },
+    {
+      "title": "## 📚 Documentation",
+      "labels": ["documentation"]
+    },
+    {
+      "title": "## 🌍 Translations",
+      "labels": ["localization"]
+    }
+  ],
+  "ignore_labels": ["ignore"],
+  "sort": {
+    "order": "ASC",
+    "on_property": "mergedAt"
+  },
+  "template": "${{CHANGELOG}}\n## Uncategorized\n${{UNCATEGORIZED}}\n\n**Full Changelog**: ${{RELEASE_DIFF}}",
+  "pr_template": "- ${{TITLE}} (#${{NUMBER}} by @${{AUTHOR}})",
+  "empty_template": "- no changes",
+  "base_branches": ["main"]
+}
