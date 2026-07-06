@@ -1,3 +1,0 @@
-- Real-time shopping lists
-- Improved item/recipe loading
-- Bug-fixes and improvements

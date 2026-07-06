@@ -1,0 +1,804 @@
+{
+  "@about": {},
+  "@accountCreate": {},
+  "@accountCreateHint": {},
+  "@accountCreateTitle": {},
+  "@accountDelete": {},
+  "@accountDeleteConfirmation": {},
+  "@accountLinkedWithOtherUser": {},
+  "@accountsLinked": {},
+  "@add": {},
+  "@addCategory": {},
+  "@addDescriptionFromSource": {},
+  "@addItemTitle": {},
+  "@addLanguage": {},
+  "@addLanguageConfirm": {
+    "placeholders": {
+      "lang": {
+        "example": "English",
+        "type": "String"
+      }
+    }
+  },
+  "@addNumberIngredients": {
+    "placeholders": {
+      "number": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@addRecipeToPlanner": {
+    "placeholders": {
+      "number": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@addRecipeToPlannerShort": {
+    "description": "A shorter title/button text used wherever the space is limited. Excludes the number of yields."
+  },
+  "@addShoppingList": {},
+  "@addTag": {},
+  "@addedBy": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@address": {},
+  "@admin": {},
+  "@analysingWebsite": {},
+  "@appDescription": {},
+  "@appTitle": {
+    "description": "The title of the app"
+  },
+  "@automaticIngredientDetection": {},
+  "@back": {},
+  "@balances": {},
+  "@budget": {},
+  "@budgetSet": {},
+  "@camera": {},
+  "@cancel": {},
+  "@categories": {},
+  "@categoriesMerge": {},
+  "@category": {},
+  "@categoryDelete": {},
+  "@categoryDeleteConfirmation": {
+    "placeholders": {
+      "category": {
+        "example": "Frozen",
+        "type": "String"
+      }
+    }
+  },
+  "@categoryEdit": {},
+  "@categoryExpenseDeleteConfirmation": {
+    "placeholders": {
+      "category": {
+        "example": "Frozen",
+        "type": "String"
+      }
+    }
+  },
+  "@changeIcon": {},
+  "@clear": {},
+  "@colorSelect": {},
+  "@confirm": {},
+  "@cookingTime": {},
+  "@copied": {},
+  "@daily": {},
+  "@dangerZone": {},
+  "@darkmode": {},
+  "@date": {},
+  "@defaultKey": {},
+  "@defaultWord": {},
+  "@delete": {},
+  "@description": {},
+  "@discover": {},
+  "@done": {},
+  "@dynamicAccentColor": {},
+  "@email": {},
+  "@emailInvalid": {},
+  "@emailNotVerified": {},
+  "@emailResendVerification": {},
+  "@emailSuccessfullyVerified": {},
+  "@emailUpdate": {},
+  "@emailUsed": {},
+  "@error": {},
+  "@excludeFromStatistics": {},
+  "@expense": {},
+  "@expenseAdd": {},
+  "@expenseAmount": {},
+  "@expenseCategories": {},
+  "@expenseEdit": {},
+  "@expenseEmpty": {},
+  "@expenseFactor": {},
+  "@expenseOverviewComparedToPreviousMonth": {},
+  "@expenseOverviewExpenses": {},
+  "@expenseOverviewTotalTitle": {
+    "placeholders": {
+      "month": {
+        "example": "January",
+        "type": "String"
+      }
+    }
+  },
+  "@expensePaidBy": {},
+  "@expensePaidFor": {},
+  "@expenseReceivedBy": {},
+  "@expenseReceivedFor": {},
+  "@export": {},
+  "@features": {},
+  "@fieldCannotBeEmpty": {
+    "placeholders": {
+      "field": {
+        "example": "Username",
+        "type": "String"
+      }
+    }
+  },
+  "@forceOfflineMode": {},
+  "@gallery": {},
+  "@general": {},
+  "@go": {},
+  "@grid": {},
+  "@helpTranslate": {},
+  "@hi": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@household": {},
+  "@householdDelete": {},
+  "@householdDeleteConfirmation": {
+    "placeholders": {
+      "household": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@householdEmpty": {},
+  "@householdLeave": {},
+  "@householdLeaveConfirmation": {
+    "placeholders": {
+      "household": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@householdNew": {},
+  "@householdSwitch": {},
+  "@households": {},
+  "@icon": {},
+  "@imageSelect": {},
+  "@import": {},
+  "@importStartedHint": {},
+  "@income": {},
+  "@ingredients": {},
+  "@ingredientsOptional": {},
+  "@itemDelete": {},
+  "@itemDeleteConfirmation": {
+    "placeholders": {
+      "item": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@itemRemoveInteraction": {},
+  "@itemSize": {},
+  "@items": {},
+  "@itemsAdd": {},
+  "@itemsMerge": {},
+  "@itemsMergeConfirmation": {
+    "placeholders": {
+      "item": {
+        "example": "Cake",
+        "type": "String"
+      },
+      "other": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@itemsOptional": {},
+  "@itemsRecent": {},
+  "@language": {},
+  "@languageSelect": {},
+  "@larger": {},
+  "@lastUsed": {},
+  "@link": {
+    "description": "As in link social account (e.g. Google)"
+  },
+  "@linkNoun": {
+    "description": "The noun, as in share using a link (URL)"
+  },
+  "@linkRecipeDescription": {},
+  "@list": {},
+  "@lltCreate": {},
+  "@lltDelete": {},
+  "@lltDeleteConfirmation": {
+    "placeholders": {
+      "token": {
+        "example": "HomeAssistant",
+        "type": "String"
+      }
+    }
+  },
+  "@lltNotShownAgain": {},
+  "@lltWarningContent": {},
+  "@lltWarningTitle": {},
+  "@llts": {},
+  "@login": {},
+  "@loginTo": {},
+  "@loginToAddToShoppingList": {},
+  "@logout": {},
+  "@logoutName": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@longPressToReorder": {},
+  "@longerThanExpected": {},
+  "@markAsPaid": {},
+  "@mealPlanner": {},
+  "@member": {},
+  "@memberAdd": {},
+  "@memberRemove": {},
+  "@members": {},
+  "@merge": {},
+  "@minutesAbbrev": {},
+  "@moneyTransfer": {},
+  "@monthly": {},
+  "@more": {},
+  "@name": {},
+  "@next": {},
+  "@noTags": {},
+  "@none": {},
+  "@now": {},
+  "@offlineMessage": {},
+  "@okay": {},
+  "@onboardingLoading": {},
+  "@onboardingSettingsTitle": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@onboardingTitle": {},
+  "@optional": {},
+  "@or": {},
+  "@ordering": {},
+  "@other": {},
+  "@overview": {},
+  "@owesAB": {
+    "placeholders": {
+      "nameA": {
+        "example": "Tom",
+        "type": "String"
+      },
+      "nameB": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@pageNotFound": {},
+  "@parent": {},
+  "@parentRights": {},
+  "@password": {},
+  "@passwordFieldTooShort": {},
+  "@passwordForgot": {},
+  "@passwordRepeat": {},
+  "@passwordRepeatNoMatch": {},
+  "@passwordReset": {},
+  "@passwordSave": {},
+  "@personal": {},
+  "@planner": {},
+  "@plannerEmpty": {},
+  "@plannerTitle": {},
+  "@preparationTime": {},
+  "@privacyPolicy": {},
+  "@privacyPolicyAgree": {
+    "placeholders": {
+      "privacyPolicy": {
+        "example": "Privacy Policy",
+        "type": "String"
+      }
+    }
+  },
+  "@private": {},
+  "@privateRecipeDescription": {},
+  "@profile": {},
+  "@public": {},
+  "@publicRecipeDescription": {},
+  "@reason": {},
+  "@recentItemsCategorize": {},
+  "@recipeAdd": {},
+  "@recipeAddToHousehold": {
+    "placeholders": {
+      "householdName": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeAddUrl": {},
+  "@recipeDelete": {},
+  "@recipeDeleteConfirmation": {
+    "placeholders": {
+      "recipe": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeEdit": {},
+  "@recipeEmpty": {},
+  "@recipeEmptySearch": {},
+  "@recipeGoToInHousehold": {
+    "placeholders": {
+      "householdName": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeImageSelect": {},
+  "@recipeNew": {},
+  "@recipeSource": {},
+  "@recipes": {},
+  "@recipesCurated": {},
+  "@recipesDiscover": {},
+  "@recipesNewestCommunity": {},
+  "@recipesOverwrite": {},
+  "@recipesOverwriteDescription": {},
+  "@recipesPopular": {},
+  "@recipesRecent": {},
+  "@recipesSuggested": {},
+  "@redo": {},
+  "@refresh": {},
+  "@rememberLastShoppingList": {},
+  "@remove": {},
+  "@rename": {},
+  "@reportIssue": {},
+  "@reportRecipe": {},
+  "@reportUser": {},
+  "@reset": {},
+  "@save": {},
+  "@search": {},
+  "@searchHint": {},
+  "@send": {},
+  "@server": {},
+  "@serverChange": {},
+  "@sessions": {},
+  "@set": {},
+  "@settings": {},
+  "@setupTitle": {},
+  "@share": {},
+  "@shoppingList": {},
+  "@shoppingListContainsEntries": {
+    "placeholders": {
+      "entriesCount": {
+        "type": "num"
+      }
+    }
+  },
+  "@shoppingListDelete": {},
+  "@shoppingListDeleteConfirmation": {
+    "placeholders": {
+      "shoppingList": {
+        "example": "Supermarket",
+        "type": "String"
+      }
+    }
+  },
+  "@shoppingListEdit": {},
+  "@shoppingListEmpty": {},
+  "@shoppingListStyle": {},
+  "@shoppingLists": {},
+  "@signInWith": {
+    "placeholders": {
+      "provider": {
+        "example": "Authentik",
+        "type": "String"
+      }
+    }
+  },
+  "@signup": {},
+  "@skip": {},
+  "@smaller": {},
+  "@sortingAlgorithmic": {},
+  "@sortingAlphabetical": {},
+  "@start": {},
+  "@supportDevelopment": {},
+  "@swipeToDelete": {},
+  "@swipeToDeleteAndLongPressToReorder": {},
+  "@swipeToRemove": {},
+  "@tagDelete": {},
+  "@tagDeleteConfirmation": {
+    "placeholders": {
+      "tag": {
+        "example": "Lunch",
+        "type": "String"
+      }
+    }
+  },
+  "@tagEdit": {},
+  "@tags": {},
+  "@tagsPopular": {},
+  "@tap": {},
+  "@terms": {},
+  "@themeDark": {},
+  "@themeLight": {},
+  "@themeMode": {},
+  "@themeSystem": {},
+  "@today": {},
+  "@tomorrow": {},
+  "@total": {},
+  "@totalTime": {},
+  "@tutorialItemDescription1": {},
+  "@tutorialItemDescription2": {},
+  "@tutorialRecipeDescription": {},
+  "@tutorialRecipeMore": {
+    "placeholders": {
+      "url": {
+        "example": "https://...",
+        "type": "String"
+      }
+    }
+  },
+  "@uncategorized": {},
+  "@underConstruction": {},
+  "@undo": {},
+  "@unlink": {
+    "description": "As in remove link to social account (e.g. Google)"
+  },
+  "@unreachableMessage": {},
+  "@unsavedChangesBody": {},
+  "@unsavedChangesTitle": {},
+  "@unsupportedBackendMessage": {},
+  "@unsupportedFrontendMessage": {},
+  "@unsupportedScrapeMessage": {},
+  "@usedIn": {},
+  "@user": {},
+  "@userAdd": {},
+  "@userDelete": {},
+  "@userDeleteConfirmation": {
+    "placeholders": {
+      "user": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@userNotSignedIn": {},
+  "@userSearchHint": {},
+  "@username": {},
+  "@usernameInvalid": {},
+  "@usernameUnavailable": {},
+  "@users": {},
+  "@website": {},
+  "@weekly": {},
+  "@welcomeBack": {},
+  "@writeMarkdownHere": {},
+  "@wrongUsernameOrPassword": {},
+  "@yearly": {},
+  "@yes": {},
+  "@yesterday": {},
+  "@yields": {},
+  "@you": {},
+  "about": "Інформація",
+  "accountCreate": "Створити акаунт",
+  "accountCreateHint": "Ваше ім’я користувача та ім’я є загальнодоступними, тож оберіть щось, що вам зручно показувати іншим.",
+  "accountCreateTitle": "Створити ваш акаунт KitchenOwl",
+  "accountDelete": "Видалити акаунт",
+  "accountDeleteConfirmation": "Ви впевнені, що хочете видалити ваш акаунт?",
+  "accountLinkedWithOtherUser": "Акаунт вже повʼязано з іншим користувачем",
+  "accountsLinked": "Повʼязані акаунти",
+  "add": "Додати",
+  "addCategory": "Додати категорію",
+  "addDescriptionFromSource": "Додати опис з джерела",
+  "addItemTitle": "Додати пункти",
+  "addLanguage": "Додати мову",
+  "addLanguageConfirm": "Ви впевнені, що хочете встановити мову '{lang}'? Цю дію не можна скасовувати, вона додасть нові елементи та категорії у ваше господарство.",
+  "addNumberIngredients": "Додати {number} інгредієнтів",
+  "addRecipeToPlanner": "Додати до плану харчування ({number} подач)",
+  "addRecipeToPlannerShort": "Додати до плану харчування",
+  "addShoppingList": "Додати список покупок",
+  "addTag": "Додати тег",
+  "addedBy": "Додано {name}",
+  "address": "Адреса",
+  "admin": "Адмін",
+  "analysingWebsite": "Аналіз веб-сайту...",
+  "appDescription": "KitchenOwl допомагає організувати ваше продуктове життя.",
+  "appTitle": "KitchenOwl",
+  "automaticIngredientDetection": "Автоматично визначати інгредієнти",
+  "back": "Назад",
+  "balances": "Кошти",
+  "budget": "Бюджет",
+  "budgetSet": "Встановити бюджет",
+  "camera": "Камера",
+  "cancel": "Скасувати",
+  "categories": "Категорії",
+  "categoriesMerge": "Поєднати категорії",
+  "category": "Категорія",
+  "categoryDelete": "Видалити категорію",
+  "categoryDeleteConfirmation": "Ви впевнені, що хочете видалити {category}? Це видалить категорію з усіх елементів.",
+  "categoryEdit": "Змінити категорію",
+  "categoryExpenseDeleteConfirmation": "Ви впевнені, що хочете видалити {category}? Це видалить категорію з усіх витрат.",
+  "changeIcon": "Змінити значок",
+  "clear": "Очистити",
+  "colorSelect": "Обрати колір",
+  "confirm": "Підтвердити",
+  "cookingTime": "Час приготування",
+  "copied": "Скопійовано",
+  "daily": "Щоденно",
+  "dangerZone": "Небезпечна зона",
+  "darkmode": "Темний режим",
+  "date": "Дата",
+  "defaultKey": "Ключ за замовчуванням",
+  "defaultWord": "За замовчуванням",
+  "delete": "Видалити",
+  "description": "Опис",
+  "discover": "Переглянути",
+  "done": "Готово",
+  "dynamicAccentColor": "Динамічний акцентний колір",
+  "email": "Емейл",
+  "emailInvalid": "Некоректний емейл",
+  "emailNotVerified": "Не підтверджено",
+  "emailResendVerification": "Надіслати підтверджуючий емейл",
+  "emailSuccessfullyVerified": "Електронна пошта успішно підтверджена!",
+  "emailUpdate": "Оновити емейл",
+  "emailUsed": "Емейл уже повʼязаний з акаунтом",
+  "error": "Виникла помилка",
+  "excludeFromStatistics": "Виключити зі статистики",
+  "expense": "Витрата",
+  "expenseAdd": "Додати витрату",
+  "expenseAmount": "Сума",
+  "expenseCategories": "Категорії витрат",
+  "expenseEdit": "Редагувати витрату",
+  "expenseEmpty": "Немає витрат. Почніть зі створення витрати!",
+  "expenseFactor": "Фактор",
+  "expenseOverviewComparedToPreviousMonth": "У порівнянні з попередніми місяцями",
+  "expenseOverviewExpenses": "Витрати",
+  "expenseOverviewTotalTitle": "Загальні за {month}:",
+  "expensePaidBy": "Оплачено",
+  "expensePaidFor": "Оплачено для",
+  "expenseReceivedBy": "Отримано від",
+  "expenseReceivedFor": "Отримано на",
+  "export": "Експортувати",
+  "features": "Особливості",
+  "fieldCannotBeEmpty": "{field} не може бути порожнім.",
+  "forceOfflineMode": "Примусовий офлайн-режим",
+  "gallery": "Галерея",
+  "general": "Загальні",
+  "go": "Вперед",
+  "grid": "Сітка",
+  "helpTranslate": "Допоможіть з перекладом",
+  "hi": "Привіт, {name}!",
+  "household": "Господарство",
+  "householdDelete": "Видалити господарство",
+  "householdDeleteConfirmation": "Ви впевнені, що хочете видалити {household}? Це видалить усі елементи, рецепти та витрати, які повʼязані з цим господарством.",
+  "householdEmpty": "Немає господарств – створіть своє!",
+  "householdLeave": "Покинути господарство",
+  "householdLeaveConfirmation": "Ви впевнені, що хочете покинути {household}?",
+  "householdNew": "Нове господарство",
+  "householdSwitch": "Перемкнути господарство",
+  "households": "Господарства",
+  "icon": "Іконка",
+  "imageSelect": "Обрати зображення",
+  "import": "Імпортувати",
+  "importStartedHint": "Імпорт розпочато, це може зайняти кілька хвилин.",
+  "income": "Дохід",
+  "ingredients": "Інгредієнти",
+  "ingredientsOptional": "Необовʼязкові інгредієнти",
+  "itemDelete": "Видалити елемент",
+  "itemDeleteConfirmation": "Ви впевнені, що хочете видалити {item}? Це видалить елемент з усіх рецептів, що його містять.",
+  "itemRemoveInteraction": "Взаємодія видалення елемента",
+  "itemSize": "Розмір елемента",
+  "items": "Елементи",
+  "itemsAdd": "Додати елементи",
+  "itemsMerge": "Поєднати елементи",
+  "itemsMergeConfirmation": "Ви впевнені, що хочете поєднати {item} та {other}? Це не можна скасовувати.",
+  "itemsOptional": "Необовʼязкові елементи",
+  "itemsRecent": "Недавні елементи",
+  "language": "Мова",
+  "languageSelect": "Обрати мову",
+  "larger": "Більше",
+  "lastUsed": "Останнє використане",
+  "link": "Посилання",
+  "linkNoun": "Посилання",
+  "linkRecipeDescription": "Рецепт доступний для перегляду всім, у кого є посилання.",
+  "list": "Список",
+  "lltCreate": "Створити токен довготермінового доступу",
+  "lltDelete": "Видалити токен довготермінового доступу",
+  "lltDeleteConfirmation": "Ви впевнені, що хочете видалити токен довготермінового доступу '{token}'? Це не можна відмінити.",
+  "lltNotShownAgain": "Збережіть токен; ви не зможете побачити його знову",
+  "lltWarningContent": "Ви впевнені, що хочете створити токен довготермінового доступу? Це потенційний безпековий ризик. Токен не має терміну дії та дає повний доступ до вашого аккаунту.",
+  "lltWarningTitle": "Ви впевнені у тому, що робите?",
+  "llts": "Довготермінові токени",
+  "login": "Вхід",
+  "loginTo": "Увійти до",
+  "loginToAddToShoppingList": "Увійдіть, щоб додати цей рецепт до свого списку покупок",
+  "logout": "Вихід",
+  "logoutName": "Вийти {name}",
+  "longPressToReorder": "Довгий дотик для сортування",
+  "longerThanExpected": "Процес займає більше часу, аніж передбачалося",
+  "markAsPaid": "Позначити як сплачене",
+  "mealPlanner": "Планувальник харчування",
+  "member": "Учасник",
+  "memberAdd": "Додати учасника",
+  "memberRemove": "Видалити учасника",
+  "members": "Учасники",
+  "merge": "Поєднати",
+  "minutesAbbrev": "хв",
+  "moneyTransfer": "Грошовий переказ",
+  "monthly": "Щомісячно",
+  "more": "Більше",
+  "name": "Імʼя",
+  "next": "Далі",
+  "noTags": "Без тегів",
+  "none": "Жоден",
+  "now": "Зараз",
+  "offlineMessage": "Ви офлайн",
+  "okay": "Гаразд",
+  "onboardingLoading": "Імпортування мови, це може зайняти трохи часу. Будь ласка, будьте терплячі :)",
+  "onboardingSettingsTitle": "Привіт {name}, давай налаштуємо сервер!",
+  "onboardingTitle": "Створимо користувача",
+  "optional": "Необовʼязково",
+  "or": "або",
+  "ordering": "Сортування",
+  "other": "Інше",
+  "overview": "Огляд",
+  "owesAB": "{nameA} володіє {nameB}",
+  "pageNotFound": "Неможливо знайти цю сторінку",
+  "parent": "Батьківський",
+  "parentRights": "Може міняти налаштування господарства",
+  "password": "Пароль",
+  "passwordFieldTooShort": "Пароль занадто короткий",
+  "passwordForgot": "Забули пароль?",
+  "passwordRepeat": "Повторити пароль",
+  "passwordRepeatNoMatch": "Паролі не співпадають",
+  "passwordReset": "Скинути пароль",
+  "passwordSave": "Оновити пароль",
+  "personal": "Особисте",
+  "planner": "Планувальник",
+  "plannerEmpty": "Немає запланованих страв. Оберіть страву з ваших рецептів!",
+  "plannerTitle": "Ваша запланована їжа",
+  "preparationTime": "Час підготовки",
+  "privacyPolicy": "Політика приватності",
+  "privacyPolicyAgree": "Створюючи акаунт ви погоджуєтесь з нашою {privacyPolicy} та {terms}",
+  "private": "Особистий",
+  "privateRecipeDescription": "Рецепт доступний лише для членів домогосподарства.",
+  "profile": "Профіль",
+  "public": "Публічний",
+  "publicRecipeDescription": "Рецепт є загальнодоступним і може бути запропонований іншим.",
+  "reason": "Причина",
+  "recentItemsCategorize": "Категоризувати останні елементи",
+  "recipeAdd": "Додати рецепт",
+  "recipeAddToHousehold": "Додати до {householdName}",
+  "recipeAddUrl": "Додати рецепт за URL",
+  "recipeDelete": "Видалити рецепт",
+  "recipeDeleteConfirmation": "Ви впевнені, що хочете видалити {recipe}?",
+  "recipeEdit": "Редагувати рецепт",
+  "recipeEmpty": "Немає рецептів, створіть перший!",
+  "recipeEmptySearch": "Не знайдено рецептів :(",
+  "recipeGoToInHousehold": "Вже додано, перейдіть до рецептів у {householdName}",
+  "recipeImageSelect": "Обрати зображення рецепта",
+  "recipeNew": "Новий рецепт",
+  "recipeSource": "Джерело рецепта",
+  "recipes": "Рецепти",
+  "recipesCurated": "Кураторські рецепти",
+  "recipesDiscover": "Знайти рецепти",
+  "recipesNewestCommunity": "Найновіші рецепти спільноти",
+  "recipesOverwrite": "Переписати рецепти",
+  "recipesOverwriteDescription": "Якщо активовано, поточні рецепти з таким же імʼя будуть перезаписані",
+  "recipesPopular": "Популярні рецепти",
+  "recipesRecent": "Недавні",
+  "recipesSuggested": "Пропоновані",
+  "redo": "Повторити",
+  "refresh": "Оновити",
+  "rememberLastShoppingList": "Пам'ятати останній використаний список покупок",
+  "remove": "Прибрати",
+  "rename": "Перейменувати",
+  "reportIssue": "Повідомити про проблему",
+  "reportRecipe": "Поскаржитись на рецепт",
+  "reportUser": "Поскаржитись на користувача",
+  "reset": "Скинути",
+  "save": "Зберегти",
+  "search": "Пошук",
+  "searchHint": "Шукаєте щось?",
+  "send": "Надіслати",
+  "server": "Сервер",
+  "serverChange": "Перемкнути сервер",
+  "sessions": "Сесії",
+  "set": "Встановити",
+  "settings": "Налаштування",
+  "setupTitle": "Привіт! Готові купувати?",
+  "share": "Поділитися",
+  "shoppingList": "Список покупок",
+  "shoppingListContainsEntries": "{entriesCount, plural, =0{У списку жодного інгредієнта} =1{У списку 1 інгредієнт.} other{У списку {entriesCount} інгредієнтів.}}",
+  "shoppingListDelete": "Видалити список покупок",
+  "shoppingListDeleteConfirmation": "Ви впевнені, що хочете видалити {shoppingList}?",
+  "shoppingListEdit": "Редагувати список покупок",
+  "shoppingListEmpty": "Список покупок порожній. Додайте інгредієнти використовуючи поле пошуку вище.",
+  "shoppingListStyle": "Стиль списку покупок",
+  "shoppingLists": "Списки покупок",
+  "signInWith": "Увійти через {provider}",
+  "signup": "Зареєструватися",
+  "skip": "Пропустити",
+  "smaller": "Менший",
+  "sortingAlgorithmic": "Алгоритмічно",
+  "sortingAlphabetical": "Алфавітно",
+  "start": "Початок",
+  "supportDevelopment": "Підтримати розробку",
+  "swipeToDelete": "Прогорнути щоб видалити",
+  "swipeToDeleteAndLongPressToReorder": "Прогорнути, щоб видалити та довгий дотик для перетягування",
+  "swipeToRemove": "Прогорнути щоб прибрати",
+  "tagDelete": "Видалити тег",
+  "tagDeleteConfirmation": "Впевнені, що хочете видалити {tag}? Це видалить тег з усіх рецептів, що його містять.",
+  "tagEdit": "Редагувати тег",
+  "tags": "Теги",
+  "tagsPopular": "Популярні теги",
+  "tap": "Дотик",
+  "terms": "Умови і правила",
+  "themeDark": "Темна",
+  "themeLight": "Світла",
+  "themeMode": "Тема",
+  "themeSystem": "Системна",
+  "today": "Сьогодні",
+  "tomorrow": "Завтра",
+  "total": "Всього",
+  "totalTime": "Всього часу",
+  "tutorialItemDescription1": "Під час пошуку товарів ви можете додати суму на початку запиту, і вона буде додана як опис.",
+  "tutorialItemDescription2": "Або, якщо суми недостатньо, використовуйте кому для розділення назви товару та його опису.",
+  "tutorialRecipeDescription": "Усередині рецептів ви можете використовувати Markdown. Основними функціями є заголовки, позначені символами решітки, пронумеровані списки кроків інструкцій і посилання на інгредієнти з використанням знака @, за яким йде назва інгредієнта.",
+  "tutorialRecipeMore": "Для отримання додаткової інформації відвідайте [documentation]({url}).",
+  "uncategorized": "Некатегоризовано",
+  "underConstruction": "У розробці",
+  "undo": "Повернутись",
+  "unlink": "Розʼєднати",
+  "unreachableMessage": "Хмммм… не можемо зʼязатись із сервером",
+  "unsavedChangesBody": "Впевнені, що хочете повернутись?",
+  "unsavedChangesTitle": "У вас є незбережені зміни",
+  "unsupportedBackendMessage": "Ця версія сервера не підтримується, будь ласка, оновіть свій бекенд",
+  "unsupportedFrontendMessage": "Версія застосунку не підтримується, будь ласка, оновіть застосунок",
+  "unsupportedScrapeMessage": "Цей вебсайт не підтримується",
+  "usedIn": "Використано у",
+  "user": "Користувач",
+  "userAdd": "Додати користувача",
+  "userDelete": "Видалити користувача",
+  "userDeleteConfirmation": "Ви впевнені, що хочете видалити {user}?",
+  "userNotSignedIn": "Вам потрібно увійти, щоб поєднати акаунт",
+  "userSearchHint": "Введіть імʼя",
+  "username": "Імʼя користувача",
+  "usernameInvalid": "Імʼя користувача не може містити '@'",
+  "usernameUnavailable": "Імʼя користувача недоступне",
+  "users": "Користувачі",
+  "website": "Веб сторінка",
+  "weekly": "Щотижня",
+  "welcomeBack": "Вітаємо з поверненням",
+  "writeMarkdownHere": "Ви можете використовувати тут markdown!",
+  "wrongUsernameOrPassword": "Хибне імʼя користувача або пароль",
+  "yearly": "Щорічно",
+  "yes": "Так",
+  "yesterday": "Вчора",
+  "yields": "Порції",
+  "you": "ви"
+}

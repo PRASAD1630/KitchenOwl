@@ -1,2 +1,0 @@
-- Exclude expenses from balance overview
-- Bug-fixes and improvements

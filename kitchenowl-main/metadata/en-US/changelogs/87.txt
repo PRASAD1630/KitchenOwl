@@ -1,2 +1,0 @@
-- OIDC support
-- Bug-fixes and improvements

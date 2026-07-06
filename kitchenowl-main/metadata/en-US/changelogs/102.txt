@@ -1,5 +1,0 @@
-- Updated logo
-- You can now share recipes with friends and family
-- Search expenses
-- New and updated translations
-- Many bug fixes and improvements

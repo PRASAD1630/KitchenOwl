@@ -1,3 +1,0 @@
-- Add recipe yields
-- Add expense images
-- Updated translations

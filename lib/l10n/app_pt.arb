@@ -1,0 +1,541 @@
+{
+  "@addLanguageConfirm": {
+    "placeholders": {
+      "lang": {
+        "example": "English",
+        "type": "String"
+      }
+    }
+  },
+  "@addNumberIngredients": {
+    "placeholders": {
+      "number": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@addRecipeToPlanner": {
+    "placeholders": {
+      "number": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@addRecipeToPlannerShort": {
+    "description": "A shorter title/button text used wherever the space is limited. Excludes the number of yields."
+  },
+  "@addedBy": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@appTitle": {
+    "description": "The title of the app"
+  },
+  "@categoryDeleteConfirmation": {
+    "placeholders": {
+      "category": {
+        "example": "Frozen",
+        "type": "String"
+      }
+    }
+  },
+  "@categoryExpenseDeleteConfirmation": {
+    "placeholders": {
+      "category": {
+        "example": "Frozen",
+        "type": "String"
+      }
+    }
+  },
+  "@expenseOverviewTotalTitle": {
+    "placeholders": {
+      "month": {
+        "example": "January",
+        "type": "String"
+      }
+    }
+  },
+  "@fieldCannotBeEmpty": {
+    "placeholders": {
+      "field": {
+        "example": "Username",
+        "type": "String"
+      }
+    }
+  },
+  "@hi": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@householdDeleteConfirmation": {
+    "placeholders": {
+      "household": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@householdLeaveConfirmation": {
+    "placeholders": {
+      "household": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@itemDeleteConfirmation": {
+    "placeholders": {
+      "item": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@itemsMergeConfirmation": {
+    "placeholders": {
+      "item": {
+        "example": "Cake",
+        "type": "String"
+      },
+      "other": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@link": {
+    "description": "As in link social account (e.g. Google)"
+  },
+  "@linkNoun": {
+    "description": "The noun, as in share using a link (URL)"
+  },
+  "@lltDeleteConfirmation": {
+    "placeholders": {
+      "token": {
+        "example": "HomeAssistant",
+        "type": "String"
+      }
+    }
+  },
+  "@logoutName": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@onboardingSettingsTitle": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@owesAB": {
+    "placeholders": {
+      "nameA": {
+        "example": "Tom",
+        "type": "String"
+      },
+      "nameB": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@privacyPolicyAgree": {
+    "placeholders": {
+      "privacyPolicy": {
+        "example": "Privacy Policy",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeAddToHousehold": {
+    "placeholders": {
+      "householdName": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeDeleteConfirmation": {
+    "placeholders": {
+      "recipe": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeGoToInHousehold": {
+    "placeholders": {
+      "householdName": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@shoppingListContainsEntries": {
+    "placeholders": {
+      "entriesCount": {
+        "type": "num"
+      }
+    }
+  },
+  "@shoppingListDeleteConfirmation": {
+    "placeholders": {
+      "shoppingList": {
+        "example": "Supermarket",
+        "type": "String"
+      }
+    }
+  },
+  "@signInWith": {
+    "placeholders": {
+      "provider": {
+        "example": "Authentik",
+        "type": "String"
+      }
+    }
+  },
+  "@tagDeleteConfirmation": {
+    "placeholders": {
+      "tag": {
+        "example": "Lunch",
+        "type": "String"
+      }
+    }
+  },
+  "@tutorialRecipeMore": {
+    "placeholders": {
+      "url": {
+        "example": "https://...",
+        "type": "String"
+      }
+    }
+  },
+  "@unlink": {
+    "description": "As in remove link to social account (e.g. Google)"
+  },
+  "@userDeleteConfirmation": {
+    "placeholders": {
+      "user": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "about": "Sobre",
+  "accountCreate": "Criar conta",
+  "accountCreateHint": "O teu nome de utilizador e nome são públicos, escolhe algo que estejas confortável em partilhar com outros.",
+  "accountCreateTitle": "Crie a sua conta KitchenOwl",
+  "accountDelete": "Apagar conta",
+  "accountDeleteConfirmation": "Tem a certeza que deseja apagar a sua conta?",
+  "accountLinkedWithOtherUser": "Conta já vinculada a outro utilizador",
+  "accountsLinked": "Contas vinculadas",
+  "add": "Adicionar",
+  "addCategory": "Adicionar categoria",
+  "addDescriptionFromSource": "Insira a origem",
+  "addItemTitle": "Adicionar itens",
+  "addLanguage": "Adicionar idioma",
+  "addLanguageConfirm": "Tem a certeza de que deseja definir o idioma para '{lang}'? Isto não pode ser desfeito e adicionará itens e categorias à sua residência.",
+  "addNumberIngredients": "Inserir {number} ingredientes",
+  "addRecipeToPlanner": "Adicionar ao plano de refeições ({number} de receitas)",
+  "addRecipeToPlannerShort": "Adicionar ao plano de refeição",
+  "addShoppingList": "Adicionar à lista de compras",
+  "addTag": "Adicionar etiqueta",
+  "addedBy": "Inserido por {name}",
+  "address": "Endereço",
+  "admin": "Administrador",
+  "analysingWebsite": "A analisar website...",
+  "appDescription": "O KitchenOwl ajuda-te a organizar as tuas compras.",
+  "appTitle": "KitchenOwl",
+  "automaticIngredientDetection": "Detetar ingredientes automaticamente",
+  "back": "Voltar",
+  "balances": "Balanço",
+  "budget": "Orçamento",
+  "budgetSet": "Definir orçamento",
+  "camera": "Câmara",
+  "cancel": "Cancelar",
+  "categories": "Categorias",
+  "categoriesMerge": "Juntar categorias",
+  "category": "Categoria",
+  "categoryDelete": "Apagar categoria",
+  "categoryDeleteConfirmation": "Tem a certeza que quer apagar {category}? Isto irá remover a categoria de todos os itens.",
+  "categoryEdit": "Editar categoria",
+  "categoryExpenseDeleteConfirmation": "Tem a certeza que quer apagar {category}? Isto irá remover a categoria de todas as despesas.",
+  "changeIcon": "Alterar ícone",
+  "clear": "Limpar",
+  "colorSelect": "Selecione uma cor",
+  "confirm": "Confirme",
+  "cookingTime": "Tempo de confeção",
+  "copied": "Copiado",
+  "daily": "Diariamente",
+  "dangerZone": "Zona de Perigo",
+  "darkmode": "Modo escuro",
+  "date": "Data",
+  "defaultKey": "Chave padrão",
+  "defaultWord": "Padrão",
+  "delete": "Apagar",
+  "description": "Descrição",
+  "discover": "Descobrir",
+  "done": "Feito",
+  "dynamicAccentColor": "Cor de destaque dinâmica",
+  "email": "Email",
+  "emailInvalid": "Email inválido",
+  "emailNotVerified": "Não verificado",
+  "emailResendVerification": "Enviar email de verificação novamente",
+  "emailSuccessfullyVerified": "Email verificado!",
+  "emailUpdate": "Atualizar email",
+  "emailUsed": "O email já está associado a uma conta",
+  "error": "Ocorreu um erro",
+  "excludeFromStatistics": "Excluir das estatísticas",
+  "expense": "Despesa",
+  "expenseAdd": "Adicionar despesa",
+  "expenseAmount": "Quantia",
+  "expenseCategories": "Categorias de despesa",
+  "expenseEdit": "Editar despesa",
+  "expenseEmpty": "Nenhuma despesa, comece criando uma!",
+  "expenseFactor": "Fator",
+  "expenseOverviewComparedToPreviousMonth": "Comparado aos meses anteriores",
+  "expenseOverviewExpenses": "Despesas",
+  "expenseOverviewTotalTitle": "Total de {month}:",
+  "expensePaidBy": "Paga por",
+  "expensePaidFor": "Pago",
+  "expenseReceivedBy": "Recebida por",
+  "expenseReceivedFor": "Recebido por",
+  "export": "Exportar",
+  "features": "Recursos",
+  "fieldCannotBeEmpty": "{field} não pode estar vazio.",
+  "forceOfflineMode": "Forçar modo off-line",
+  "gallery": "Galeria",
+  "general": "Geral",
+  "go": "Ir",
+  "grid": "Grelha",
+  "helpTranslate": "Ajude a traduzir",
+  "hi": "Olá {name}!",
+  "hidePastPlans": "Esconder planos anteriores",
+  "household": "Residência",
+  "householdDelete": "Apagar residência",
+  "householdDeleteConfirmation": "Tem a certeza de que deseja apagar {household}? Isto apagará quaisquer elementos, receitas e despesas associadas a essa residência.",
+  "householdEmpty": "Sem residências, comece criando uma!",
+  "householdLeave": "Sair da residência",
+  "householdLeaveConfirmation": "Tem a certeza de que deseja sair de {household}?",
+  "householdNew": "Nova residência",
+  "householdSwitch": "Trocar de residência",
+  "households": "Residências",
+  "icon": "Ícone",
+  "imageSelect": "Selecione uma imagem",
+  "import": "Importar",
+  "importStartedHint": "A importação começou, pode demorar alguns minutos.",
+  "income": "Renda",
+  "ingredients": "Ingredientes",
+  "ingredientsOptional": "Ingredientes opcionais",
+  "itemDelete": "Apagar elemento",
+  "itemDeleteConfirmation": "Tem a certeza de que deseja apagar {item}? Isto removerá o item de qualquer receita que o contenha.",
+  "itemRemoveInteraction": "Interação para remover elementos",
+  "itemSize": "Tamanho do elementos",
+  "items": "Elementos",
+  "itemsAdd": "Adicionar elementos",
+  "itemsMerge": "Combinar elementos",
+  "itemsMergeConfirmation": "Tem a certeza de que deseja combinar {item} e {other}? Isto não pode ser desfeito.",
+  "itemsOptional": "Elementos opcionais",
+  "itemsRecent": "Elementos recentes",
+  "language": "Idioma",
+  "languageSelect": "Selecione um idioma",
+  "larger": "Maior",
+  "lastUsed": "Última utilização",
+  "link": "Ligação",
+  "linkNoun": "Ligação",
+  "linkRecipeDescription": "Qualquer pessoa com um link para esta receita pode vê-la.",
+  "list": "Lista",
+  "lltCreate": "Criar token de longa duração",
+  "lltDelete": "Apagar token de longa duração",
+  "lltDeleteConfirmation": "Tem a certeza de que deseja apagar o token de longa duração '{token}'? Isto não pode ser desfeito.",
+  "lltNotShownAgain": "Guarde o token; não poderá visualizá-lo novamente",
+  "lltWarningContent": "Tem a certeza de que deseja criar um token de longa duração? Isto pode ser um risco de segurança. O token não expira e dá acesso total à sua conta.",
+  "lltWarningTitle": "Sabe o que está a fazer?",
+  "llts": "Tokens de longa duração",
+  "login": "Login",
+  "loginTo": "Fazer login em",
+  "loginToAddToShoppingList": "Faça login para adicionar esta receita ao seu carrinho de compras",
+  "logout": "Sair",
+  "logoutName": "Sair {name}",
+  "longPressToReorder": "Toque longo para reordenar",
+  "longerThanExpected": "Está a levar mais tempo do que o esperado",
+  "markAsPaid": "Marcar como pago",
+  "mealPlanner": "Planeador de refeições",
+  "member": "Membro",
+  "memberAdd": "Adicionar membro",
+  "memberRemove": "Remover membro",
+  "members": "Membros",
+  "merge": "Combinar",
+  "minutesAbbrev": "min",
+  "moneyTransfer": "Transferência de dinheiro",
+  "monthly": "Mensal",
+  "more": "Mais",
+  "name": "Nome",
+  "next": "Próximo",
+  "noTags": "Sem etiquetas",
+  "none": "Nenhum",
+  "now": "Agora",
+  "offlineMessage": "Está off-line",
+  "okay": "Ok",
+  "onboardingLoading": "A importação do idioma pode demorar um pouco. Por favor, seja paciente :)",
+  "onboardingSettingsTitle": "Olá {name}, vamos configurar o servidor!",
+  "onboardingTitle": "Vamos criar um utilizador",
+  "optional": "Opcional",
+  "or": "ou",
+  "ordering": "Ordem",
+  "other": "Outros",
+  "overview": "Visão geral",
+  "owesAB": "{nameA} deve a {nameB}",
+  "pageNotFound": "Não foi possível encontrar esta página",
+  "parent": "Pai ou Mãe",
+  "parentRights": "Pode alterar configurações da moradia",
+  "password": "Senha",
+  "passwordFieldTooShort": "Senha muito curta",
+  "passwordForgot": "Esqueceu-se da palavra-passe?",
+  "passwordRepeat": "Repetir senha",
+  "passwordRepeatNoMatch": "As senhas não são iguais",
+  "passwordReset": "Redefinir senha",
+  "passwordSave": "Atualizar senha",
+  "personal": "Pessoal",
+  "planner": "Pleaneador",
+  "plannerEmpty": "Sem refeições planeadas, comece selecionando uma das suas receitas!",
+  "plannerTitle": "As suas refeições planeadas",
+  "preparationTime": "Tempo de preparação",
+  "privacyPolicy": "Política de privacidade",
+  "privacyPolicyAgree": "Ao criar uma conta, concorda com a nossa {privacyPolicy} e {terms}",
+  "private": "Privado",
+  "privateRecipeDescription": "Apenas membros da residência podem ver esta receita.",
+  "profile": "Perfil",
+  "public": "Público",
+  "publicRecipeDescription": "Esta receita é pública e pode ser sugerida para outros.",
+  "reason": "Razão",
+  "recentItemsCategorize": "Categorizar elementos recentes",
+  "recipeAdd": "Adicionar receita",
+  "recipeAddToHousehold": "Adicionar a {householdName}",
+  "recipeAddUrl": "Adicionar receita a partir de URL",
+  "recipeDelete": "Apagar receita",
+  "recipeDeleteConfirmation": "Tem a certeza de que deseja remover {recipe}?",
+  "recipeEdit": "Editar receita",
+  "recipeEmpty": "Sem receitas, comece adicionando uma!",
+  "recipeEmptySearch": "Não foram encontradas receitas :(",
+  "recipeGoToInHousehold": "Já está adicionado, vaia à receita em {householdName}",
+  "recipeImageSelect": "Selecione uma imagem da receita",
+  "recipeNew": "Nova receita",
+  "recipeSource": "Origem da receita",
+  "recipes": "Receitas",
+  "recipesCurated": "Receitas selecionadas",
+  "recipesDiscover": "Descobrir receitas",
+  "recipesNewestCommunity": "Receitas da comunidade mais novas",
+  "recipesOverwrite": "Sobrescrever receitas",
+  "recipesOverwriteDescription": "Se ativado, as receitas existentes com o mesmo nome serão substituídas",
+  "recipesPopular": "Receitas populares",
+  "recipesRecent": "Recentes",
+  "recipesSuggested": "Sugerido",
+  "redo": "Refazer",
+  "refresh": "Atualizar",
+  "rememberLastShoppingList": "Guardar a última lista de compras",
+  "remove": "Remover",
+  "rename": "Renomear",
+  "reportIssue": "Relatar um problema",
+  "reportRecipe": "Denunciar receita",
+  "reportUser": "Denunciar utilizador",
+  "reset": "Redefinir",
+  "save": "Guardar",
+  "search": "Pesquisar",
+  "searchHint": "Está à procura de algo?",
+  "send": "Enviar",
+  "server": "Servidor",
+  "serverChange": "Mudar de servidor",
+  "sessions": "Sessões",
+  "set": "Definir",
+  "settings": "Configurações",
+  "setupTitle": "Olá! Pronto para fazer compras?",
+  "share": "Partilhar",
+  "shoppingList": "Lista de compras",
+  "shoppingListContainsEntries": "{entriesCount, plural, =0{A lista de compras não contém elementos.} =1{A lista de compras contém 1 elemento.} other{A lista de compras contém {entriesCount} elementos.}}",
+  "shoppingListDelete": "Apagar lista de compras",
+  "shoppingListDeleteConfirmation": "Tem a certeza de que deseja apagar {shoppingList}?",
+  "shoppingListEdit": "Editar lista de compras",
+  "shoppingListEmpty": "A lista de compras está vazia. Adiciona um item usando a barra de pesquisa no topo.",
+  "shoppingListKeepAwake": "Manter o ecrã ligado enquanto faz compras",
+  "shoppingListStyle": "Estilo da lista de compras",
+  "shoppingLists": "Listas de compras",
+  "showPastPlans": "Mostrar todos os planos",
+  "signInWith": "Entrar com {provider}",
+  "signup": "Registar-se",
+  "skip": "Saltar",
+  "smaller": "Menor",
+  "sortingAlgorithmic": "Algorítmico",
+  "sortingAlphabetical": "Alfabética",
+  "start": "Iniciar",
+  "supportDevelopment": "Apoie o desenvolvimento",
+  "swipeToDelete": "Deslize para apagar",
+  "swipeToDeleteAndLongPressToReorder": "Deslize para apagar e mantenha pressionado para reordenar",
+  "swipeToRemove": "Deslize para remover",
+  "tagDelete": "Apagar etiqueta",
+  "tagDeleteConfirmation": "Tem a certeza de que deseja apagar {tag}? Isto removerá a etiqueta de qualquer receita que a contenha.",
+  "tagEdit": "Editar etiqueta",
+  "tags": "Etiquetas",
+  "tagsPopular": "Etiquetas populares",
+  "tap": "Tocar",
+  "terms": "Termos e condições",
+  "themeDark": "Escuro",
+  "themeLight": "Claro",
+  "themeMode": "Tema",
+  "themeSystem": "Sistema",
+  "today": "Hoje",
+  "tomorrow": "Amanhã",
+  "total": "Total",
+  "totalTime": "Tempo total",
+  "tutorialItemDescription1": "Ao procurar elementos, pode adicionar uma quantia no início da pesquisa, e será adicionada à descrição.",
+  "tutorialItemDescription2": "Ou, se for necessário mais informação, use uma vírgula para separar o nome do elemento da sua descrição.",
+  "tutorialRecipeDescription": "Dentro das receitas, pode usar Markdown. Funcionalidades básicas incluem títulos especificados com cardinais, listas numeradas para os passos da receita, e referências aos ingredientes usando um @ seguido do nome do ingrediente.",
+  "tutorialRecipeMore": "Para mais informações, consulte a [documentação]({url}).",
+  "uncategorized": "Sem categoria",
+  "underConstruction": "Em construção",
+  "undo": "Desfazer",
+  "unlink": "Desvincular",
+  "unreachableMessage": "Hmmmm... não foi possível aceder ao servidor",
+  "unsavedChangesBody": "Tem a certeza de que deseja voltar?",
+  "unsavedChangesTitle": "Tem alterações não guardadas",
+  "unsupportedBackendMessage": "A versão do servidor não é compatível, por favor atualize o backend",
+  "unsupportedFrontendMessage": "A versão da aplicação não é compatível, por favor atualize a aplicação",
+  "unsupportedScrapeMessage": "Este website não é suportado",
+  "usedIn": "Usado em",
+  "user": "Utilizador",
+  "userAdd": "Adicionar utilizador",
+  "userDelete": "Apagar utilizador",
+  "userDeleteConfirmation": "Tem a certeza de que deseja remover {user}?",
+  "userNotSignedIn": "Precisa de estar autenticado para vincular uma conta",
+  "userSearchHint": "Digite um nome",
+  "username": "Nome de utilizador",
+  "usernameInvalid": "O nome de utilizador não pode conter '@'",
+  "usernameUnavailable": "O nome de utilizador não está disponível",
+  "users": "Utilizadores",
+  "website": "Site",
+  "weekly": "Semanal",
+  "welcomeBack": "Bem-vindo de volta",
+  "writeMarkdownHere": "Pode usar markdown aqui!",
+  "wrongUsernameOrPassword": "Nome de utilizador ou palavra-passe incorretos",
+  "yearly": "Anualmente",
+  "yes": "Sim",
+  "yesterday": "Ontem",
+  "yields": "Porções",
+  "you": "você"
+}

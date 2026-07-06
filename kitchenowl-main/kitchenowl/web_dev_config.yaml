@@ -1,4 +1,0 @@
-server:
-  proxy:
-    - target: "http://localhost:5000/"
-      prefix: "/api/"

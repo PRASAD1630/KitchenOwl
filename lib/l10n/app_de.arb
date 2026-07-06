@@ -1,0 +1,532 @@
+{
+  "@addLanguageConfirm": {
+    "placeholders": {
+      "lang": {
+        "example": "English",
+        "type": "String"
+      }
+    }
+  },
+  "@addNumberIngredients": {
+    "placeholders": {
+      "number": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@addRecipeToPlanner": {
+    "placeholders": {
+      "number": {
+        "example": "2",
+        "type": "int"
+      }
+    }
+  },
+  "@addedBy": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@appTitle": {
+    "description": "The title of the app"
+  },
+  "@categoryDeleteConfirmation": {
+    "placeholders": {
+      "category": {
+        "example": "Frozen",
+        "type": "String"
+      }
+    }
+  },
+  "@categoryExpenseDeleteConfirmation": {
+    "placeholders": {
+      "category": {
+        "example": "Frozen",
+        "type": "String"
+      }
+    }
+  },
+  "@expenseOverviewTotalTitle": {
+    "placeholders": {
+      "month": {
+        "example": "January",
+        "type": "String"
+      }
+    }
+  },
+  "@fieldCannotBeEmpty": {
+    "placeholders": {
+      "field": {
+        "example": "Username",
+        "type": "String"
+      }
+    }
+  },
+  "@hi": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@householdDeleteConfirmation": {
+    "placeholders": {
+      "household": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@householdLeaveConfirmation": {
+    "placeholders": {
+      "household": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@itemDeleteConfirmation": {
+    "placeholders": {
+      "item": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@itemsMergeConfirmation": {
+    "placeholders": {
+      "item": {
+        "example": "Cake",
+        "type": "String"
+      },
+      "other": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@link": {
+    "description": "As in link social account (e.g. Google)"
+  },
+  "@linkNoun": {
+    "description": "The noun, as share using a link (URL)"
+  },
+  "@lltDeleteConfirmation": {
+    "placeholders": {
+      "token": {
+        "example": "HomeAssistant",
+        "type": "String"
+      }
+    }
+  },
+  "@logoutName": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@onboardingSettingsTitle": {
+    "placeholders": {
+      "name": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@owesAB": {
+    "placeholders": {
+      "nameA": {
+        "example": "Tom",
+        "type": "String"
+      },
+      "nameB": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "@privacyPolicyAgree": {
+    "placeholders": {
+      "privacyPolicy": {
+        "example": "Privacy Policy",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeAddToHousehold": {
+    "placeholders": {
+      "householdName": {
+        "example": "Home",
+        "type": "String"
+      }
+    }
+  },
+  "@recipeDeleteConfirmation": {
+    "placeholders": {
+      "recipe": {
+        "example": "Cake",
+        "type": "String"
+      }
+    }
+  },
+  "@shoppingListContainsEntries": {
+    "placeholders": {
+      "entriesCount": {
+        "type": "num"
+      }
+    }
+  },
+  "@shoppingListDeleteConfirmation": {
+    "placeholders": {
+      "shoppingList": {
+        "example": "Supermarket",
+        "type": "String"
+      }
+    }
+  },
+  "@signInWith": {
+    "placeholders": {
+      "provider": {
+        "example": "Authentik",
+        "type": "String"
+      }
+    }
+  },
+  "@tagDeleteConfirmation": {
+    "placeholders": {
+      "tag": {
+        "example": "Lunch",
+        "type": "String"
+      }
+    }
+  },
+  "@tutorialRecipeMore": {
+    "placeholders": {
+      "url": {
+        "example": "https://...",
+        "type": "String"
+      }
+    }
+  },
+  "@unlink": {
+    "description": "As in remove link to social account (e.g. Google)"
+  },
+  "@userDeleteConfirmation": {
+    "placeholders": {
+      "user": {
+        "example": "Tom",
+        "type": "String"
+      }
+    }
+  },
+  "about": "Über",
+  "accountCreate": "Konto erstellen",
+  "accountCreateHint": "Dein Benutzername und Name sind öffentlich. Wähle etwas, mit dem du dich wohlfühlst.",
+  "accountCreateTitle": "Erstelle dein KitchenOwl-Konto",
+  "accountDelete": "Konto löschen",
+  "accountDeleteConfirmation": "Bist du dir sicher, dass du dein Konto löschen möchtest?",
+  "accountLinkedWithOtherUser": "Konto schon mit anderem Nutzer verknüpft",
+  "accountsLinked": "Verknüpfte Konten",
+  "add": "Hinzufügen",
+  "addCategory": "Kategorie hinzufügen",
+  "addDescriptionFromSource": "Füge die Beschreibung der Quelle ein",
+  "addItemTitle": "Artikel hinzufügen",
+  "addLanguage": "Sprache hinzufügen",
+  "addLanguageConfirm": "Bist du dir sicher, dass du die Sprache auf '{lang}' setzen möchtest? Dies kann nicht rückgängig gemacht werden und fügt Produkte und Kategorien hinzu.",
+  "addNumberIngredients": "Füge {number} Zutaten hinzu",
+  "addRecipeToPlanner": "Zum Essensplan hinzufügen ({number} Portionen)",
+  "addRecipeToPlannerShort": "Zum Essensplan hinzufügen",
+  "addShoppingList": "Einkaufsliste hinzufügen",
+  "addTag": "Markierung hinzufügen",
+  "addedBy": "Hinzugefügt von {name}",
+  "address": "Adresse",
+  "admin": "Admin",
+  "analysingWebsite": "Analysiere Website…",
+  "appDescription": "KitchenOwl hilft dir dein Lebensmitteleinkauf zu erleichtern.",
+  "appTitle": "KitchenOwl",
+  "automaticIngredientDetection": "Zutaten automatisch erkennen",
+  "back": "Zurück",
+  "balances": "Bilanz",
+  "budget": "Budget",
+  "budgetSet": "Budget setzen",
+  "camera": "Kamera",
+  "cancel": "Abbrechen",
+  "cards": "Karten",
+  "categories": "Kategorien",
+  "categoriesMerge": "Kategorien zusammenführen",
+  "category": "Kategorie",
+  "categoryDelete": "Kategorie löschen",
+  "categoryDeleteConfirmation": "Bist du dir sicher, dass du {category} löschen möchtest? Diese Aktion entfernt die Kategorie von allen Elementen.",
+  "categoryEdit": "Kategorie bearbeiten",
+  "categoryExpenseDeleteConfirmation": "Bist du dir sicher, dass du {category} löschen möchtest? Diese Aktion entfernt die Kategorie von allen Ausgaben.",
+  "changeIcon": "Symbol ändern",
+  "clear": "Löschen",
+  "colorSelect": "Suche eine Farbe aus",
+  "compact": "Kompakt",
+  "confirm": "Bestätigen",
+  "cookingTime": "Kochzeit",
+  "copied": "Kopiert",
+  "daily": "Täglich",
+  "dangerZone": "Gefahrenzone",
+  "darkmode": "Nachtmodus",
+  "date": "Datum",
+  "defaultKey": "Standard Schlüssel",
+  "defaultWord": "Standard",
+  "delete": "Löschen",
+  "description": "Beschreibung",
+  "discover": "Entdecken",
+  "done": "Fertig",
+  "dynamicAccentColor": "Dynamische Akzentfarbe",
+  "email": "E-Mail",
+  "emailInvalid": "Ungültige E-Mail",
+  "emailNotVerified": "Nicht verifiziert",
+  "emailResendVerification": "Verifizierungs-E-Mail erneut senden",
+  "emailSuccessfullyVerified": "E-Mail erfolgreich verifiziert!",
+  "emailUpdate": "E-Mail aktualisieren",
+  "emailUsed": "Die E-Mail ist bereits mit einem Konto verknüpft",
+  "error": "Ein Fehler ist aufgetreten",
+  "excludeFromStatistics": "Von der Statistik ausschließen",
+  "expense": "Ausgabe",
+  "expenseAdd": "Ausgabe hinzufügen",
+  "expenseAmount": "Betrag",
+  "expenseCategories": "Ausgabenkategorien",
+  "expenseEdit": "Ausgabe bearbeiten",
+  "expenseEmpty": "Keine Ausgaben, fange an welche zu erstellen!",
+  "expenseFactor": "Faktor",
+  "expenseOverviewComparedToPreviousMonth": "Im Vergleich zu den letzten Monaten",
+  "expenseOverviewExpenses": "Ausgaben",
+  "expenseOverviewTotalTitle": "Gesamte Ausgaben für {month}:",
+  "expensePaidBy": "Bezahlt von",
+  "expensePaidFor": "Bezahlt für",
+  "expenseReceivedBy": "Erhalten von",
+  "expenseReceivedFor": "Erhalten für",
+  "export": "Exportieren",
+  "features": "Eigenschaften",
+  "fieldCannotBeEmpty": "{field} darf nicht leer sein.",
+  "forceOfflineMode": "Offline Modus erzwingen",
+  "gallery": "Galerie",
+  "general": "Allgemein",
+  "go": "Los",
+  "grid": "Gitter",
+  "helpTranslate": "Hilf beim Übersetzen",
+  "hi": "Hi {name}!",
+  "hidePastPlans": "Vergangene Pläne ausblenden",
+  "household": "Haushalt",
+  "householdDelete": "Haushalt löschen",
+  "householdDeleteConfirmation": "Bist du sicher, dass du {household} löschen möchtest? Das entfernt alle Produkte, Kategorien, Rezepte und Ausgaben.",
+  "householdEmpty": "Keine Haushalte, fange an einen zu erstellen!",
+  "householdLeave": "Haushalt verlassen",
+  "householdLeaveConfirmation": "Bist du sicher, dass du {household} verlassen möchtest?",
+  "householdNew": "Neuer Haushalt",
+  "householdSwitch": "Haushalt wechseln",
+  "households": "Haushalte",
+  "icon": "Symbol",
+  "imageSelect": "Wähle ein Bild aus",
+  "import": "Importieren",
+  "importStartedHint": "Importierung gestartet, dies kann ein paar Minuten dauern.",
+  "income": "Einnahme",
+  "ingredients": "Zutaten",
+  "ingredientsOptional": "Optionale Zutaten",
+  "itemDelete": "Artikel löschen",
+  "itemDeleteConfirmation": "Bist du dir sicher, dass du {item} löschen möchtest? Diese Aktion entfernt den Artikel von allen Rezepten.",
+  "itemRemoveInteraction": "Artikel entfernen Interaktion",
+  "itemSize": "Größe des Artikels",
+  "items": "Artikel",
+  "itemsAdd": "Elemente hinzufügen",
+  "itemsMerge": "Artikel zusammenführen",
+  "itemsMergeConfirmation": "Bist sicher, dass du {item} und {other} zusammenführen möchtest? Das kann nicht rückgängig gemacht werden.",
+  "itemsOptional": "Optionale Artikel",
+  "itemsRecent": "Zuletzt benutzt",
+  "language": "Sprache",
+  "languageSelect": "Wähle eine Sprache",
+  "larger": "Größer",
+  "lastUsed": "Zuletzt benutzt",
+  "link": "Verknüpfen",
+  "linkNoun": "Link",
+  "linkRecipeDescription": "Jeder mit dem Link zum Rezept kann es sehen.",
+  "list": "Liste",
+  "lltCreate": "Long-lived Token erstellen",
+  "lltDelete": "Lösche Long-lived Token",
+  "lltDeleteConfirmation": "Bist du sicher, dass du den Long-lived Token '{token}' löschen möchtest? Das kann nicht Rückgängig gemacht werden.",
+  "lltNotShownAgain": "Speichere den Token, du kannst ihn dir nicht noch einmal anzeigen lassen",
+  "lltWarningContent": "Bist du sicher, dass du einen long-lived token erstellen möchstest? Das stellt ein potentielles Sicherheitsrisiko dar. Der Token verfällt nicht und gibt vollen Zugang zu deinem Konto.",
+  "lltWarningTitle": "Weißt du was du machst?",
+  "llts": "Long-lived Tokens",
+  "login": "Anmelden",
+  "loginTo": "Anmeldung bei",
+  "loginToAddToShoppingList": "Melde dich an, um dieses Rezept zur Einkaufsliste hinzuzufügen",
+  "logout": "Abmelden",
+  "logoutName": "Melde {name} ab",
+  "longPressToReorder": "Halte lang zum Umsortieren",
+  "longerThanExpected": "Das dauert länger als erwartet",
+  "markAsPaid": "Als gezahlt markieren",
+  "mealPlanner": "Essensplaner",
+  "member": "Mitglied",
+  "memberAdd": "Mitglied hinzufügen",
+  "memberRemove": "Mitglied entfernen",
+  "members": "Mitglieder",
+  "merge": "Zusammenführen",
+  "minutesAbbrev": "Min",
+  "moneyTransfer": "Geldtransfer",
+  "monthly": "Monatlich",
+  "more": "Mehr",
+  "name": "Name",
+  "next": "Weiter",
+  "noTags": "Keine Markierungen",
+  "none": "Keine",
+  "now": "Jetzt",
+  "offlineMessage": "Du bist offline",
+  "okay": "In Ordnung",
+  "onboardingLoading": "Importiere Sprache, das kann etwas dauern. Bitte sei geduldig :)",
+  "onboardingSettingsTitle": "Hallo {name}, lass uns den Server aufsetzen!",
+  "onboardingTitle": "Lass uns einen Nutzer erstellen",
+  "optional": "Optional",
+  "or": "oder",
+  "ordering": "Ordnung",
+  "other": "Sonstige",
+  "overview": "Übersicht",
+  "owesAB": "{nameA} schuldet {nameB}",
+  "pageNotFound": "Diese Seite konnte nicht gefunden werden",
+  "parent": "Elternteil",
+  "parentRights": "Kann Haushaltseinstellungen ändern",
+  "password": "Passwort",
+  "passwordFieldTooShort": "Passwort zu kurz",
+  "passwordForgot": "Passwort vergessen?",
+  "passwordRepeat": "Wiederhole Passwort",
+  "passwordRepeatNoMatch": "Die Passwörter stimmen nicht überein",
+  "passwordReset": "Passwort zurücksetzen",
+  "passwordSave": "Passwort aktualisieren",
+  "personal": "Persönlich",
+  "planner": "Planer",
+  "plannerEmpty": "Keine geplanten Mahlzeiten, finde ein passendes Rezept und leg los!",
+  "plannerTitle": "Deine geplanten Mahlzeiten",
+  "preparationTime": "Vorbereitungszeit",
+  "privacyPolicy": "Datenschutzrichtlinie",
+  "privacyPolicyAgree": "Durch das Erstellen eines Kontos stimmst du der {privacyPolicy} und den {terms} zu",
+  "private": "Privat",
+  "privateRecipeDescription": "Nur Mitglieder des Haushaltes können das Rezept sehen.",
+  "profile": "Profil",
+  "public": "Öffentlich",
+  "publicRecipeDescription": "Das Rezept ist öffentlich und kann anderen vorgeschlagen werden.",
+  "reason": "Grund",
+  "recentItemsCategorize": "Kategorisiere zuletzt benutze Artikel",
+  "recipeAdd": "Rezept hinzufügen",
+  "recipeAddToHousehold": "Zu {householdName} hinzufügen",
+  "recipeAddUrl": "Rezept von URL hinzufügen",
+  "recipeDelete": "Rezept löschen",
+  "recipeDeleteConfirmation": "Bist du dir sicher, dass du {recipe} löschen möchtest?",
+  "recipeEdit": "Rezept bearbeiten",
+  "recipeEmpty": "Keine Rezepte, fange and welche zu erstellen!",
+  "recipeEmptySearch": "Keine Rezepte gefunden :(",
+  "recipeGoToInHousehold": "Bereits hinzugefügt, gehe zum Rezept in {householdName}",
+  "recipeImageSelect": "Wähle ein Rezeptbild",
+  "recipeNew": "Neues Rezept",
+  "recipeSource": "Rezept Quelle",
+  "recipes": "Rezepte",
+  "recipesCurated": "Ausgewählte Rezepte",
+  "recipesDiscover": "Entdecke Rezepte",
+  "recipesNewestCommunity": "Neueste Community-Rezepte",
+  "recipesOverwrite": "Rezepte überschreiben",
+  "recipesOverwriteDescription": "Wenn aktiviert, werden bestehende Rezepte mit dem gleichen Namen überschrieben",
+  "recipesPopular": "Beliebte Rezepte",
+  "recipesRecent": "Zuletzt",
+  "recipesSuggested": "Empfohlen",
+  "redo": "Wiederherstellen",
+  "refresh": "Aktualisieren",
+  "rememberLastShoppingList": "An die zuletzt benutzte Einkaufsliste erinnern",
+  "remove": "Entfernen",
+  "rename": "Umbenennen",
+  "reportIssue": "Ein Problem melden",
+  "reportRecipe": "Rezept melden",
+  "reportUser": "Benutzer melden",
+  "reset": "Zurücksetzen",
+  "save": "Speichern",
+  "search": "Suche",
+  "searchHint": "Suchst du etwas?",
+  "send": "Senden",
+  "server": "Server",
+  "serverChange": "Server wechseln",
+  "sessions": "Sitzungen",
+  "set": "Setzen",
+  "settings": "Einstellungen",
+  "setupTitle": "Hallo! Bereit zum Einkaufen?",
+  "share": "Teilen",
+  "shoppingList": "Einkaufsliste",
+  "shoppingListContainsEntries": "{entriesCount, plural, =0{Die Einkaufsliste hat keine Artikel.} =1{Die Einkaufliste hat einen Artikel.} other{Die Einkaufsliste hat {entriesCount} Artikel.}}",
+  "shoppingListDelete": "Einkaufsliste löschen",
+  "shoppingListDeleteConfirmation": "Bist du dir sicher, dass du {shoppingList} löschen möchtest?",
+  "shoppingListEdit": "Einkaufsliste bearbeiten",
+  "shoppingListEmpty": "Die Einkaufsliste ist leer. Füge einen Artikel über die Suchfunktion oben hinzu.",
+  "shoppingListKeepAwake": "Bildschirm während des Einkaufens eingeschaltet lassen",
+  "shoppingListStyle": "Einkaufslisten-Stil",
+  "shoppingLists": "Einkaufslisten",
+  "showPastPlans": "Zeig alle Pläne",
+  "signInWith": "Mit {provider} anmelden",
+  "signup": "Registrieren",
+  "skip": "Überspringen",
+  "smaller": "Kleiner",
+  "sortingAlgorithmic": "Algorithmisch",
+  "sortingAlphabetical": "Alphabetisch",
+  "start": "Start",
+  "supportDevelopment": "Unterstütze die Entwicklung",
+  "swipeToDelete": "Wische zum Löschen",
+  "swipeToDeleteAndLongPressToReorder": "Wische zum Löschen und halte lang zum Umsortieren",
+  "swipeToRemove": "Wische zum Entfernen",
+  "tagDelete": "Markierung löschen",
+  "tagDeleteConfirmation": "Bist du dir sicher, dass du {tag} löschen möchtest? Diese Aktion entfernt die Markierung von allen Rezepten.",
+  "tagEdit": "Markierung bearbeiten",
+  "tags": "Markierungen",
+  "tagsPopular": "Beliebte Tags",
+  "tap": "Tippen",
+  "terms": "Allgemeine Geschäftsbedingungen",
+  "themeDark": "Dunkel",
+  "themeLight": "Hell",
+  "themeMode": "Farbschema",
+  "themeSystem": "System",
+  "today": "Heute",
+  "tomorrow": "Morgen",
+  "total": "Gesamt",
+  "totalTime": "Gesamtzeit",
+  "tutorialItemDescription1": "Bei der Suche nach Artikeln kannst du mit einer Menge anfangen, die dann als Beschreibung hinzugefügt wird.",
+  "tutorialItemDescription2": "Oder, wenn Mengen nicht genug sind, kannst du ein Komma benutzen, um Artikel und Beschreibung zu trennen.",
+  "tutorialRecipeDescription": "Innerhalb von Rezepten kannst du Markdown benutzen. Grundlegende Funktionen sind Überschriften, die mit Rautenzeichen angegeben werden, nummerierte Listen für Anweisungsschritte und Verweise auf Zutaten mit einem @-Zeichen gefolgt von dem Namen der Zutat.",
+  "tutorialRecipeMore": "Weitere Informationen findest du in der [Dokumentation]({url}).",
+  "uncategorized": "Unkategorisiert",
+  "underConstruction": "Baustelle",
+  "undo": "Rückgängig machen",
+  "unlink": "Verknüpfung aufheben",
+  "unreachableMessage": "Hmmmm… der Server konnte nicht erreicht werden",
+  "unsavedChangesBody": "Bist du sicher, dass du zurückgehen möchtest?",
+  "unsavedChangesTitle": "Du hast ungespeicherte Änderungen",
+  "unsupportedBackendMessage": "Die Server version wird nicht unterstützt, bitte aktualisiere den Server",
+  "unsupportedFrontendMessage": "Die App version wird nicht vom Server unterstützt, bitte aktualisiere die App",
+  "unsupportedScrapeMessage": "Diese Website wird nicht unterstützt",
+  "usedIn": "Benutzt in",
+  "user": "Benutzer",
+  "userAdd": "Benutzer hinzufügen",
+  "userDelete": "Benutzer löschen",
+  "userDeleteConfirmation": "Bist du dir sicher, dass du {user} löschen möchtest?",
+  "userNotSignedIn": "Du musst eingeloggt sein, um einen Account zu verknüpfen",
+  "userSearchHint": "Schreibe einen Namen",
+  "username": "Benutzername",
+  "usernameInvalid": "Benutzername kann nicht '@' enthalten",
+  "usernameUnavailable": "Der Benutzername ist nicht verfügbar",
+  "users": "Benutzer",
+  "website": "Website",
+  "weekly": "Wöchentlich",
+  "welcomeBack": "Wilkommen zurück",
+  "writeMarkdownHere": "Hier wird markdown unterstützt!",
+  "wrongUsernameOrPassword": "Benutzername oder Passwort ist falsch",
+  "yearly": "Jährlich",
+  "yes": "Ja",
+  "yesterday": "Gestern",
+  "yields": "Portionen",
+  "you": "du"
+}

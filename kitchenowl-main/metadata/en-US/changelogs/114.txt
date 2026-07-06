@@ -1,3 +1,0 @@
-- You can now set recipes to public and discover other public recipes
-- New and updated translations
-- Many bug fixes and other minor improvements

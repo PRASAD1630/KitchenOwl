@@ -1,2 +1,0 @@
-- New and updated translations
-- Some bug fixes and improvements

@@ -1,3 +1,0 @@
-- Allow cloud sign up
-- Adds Belarusian & Polish
-- Fix bugs
